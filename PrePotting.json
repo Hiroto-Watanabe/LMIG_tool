@@ -1,0 +1,303 @@
+﻿{
+    "PrePotting":[
+       {
+            "StatusTests":{
+                "FanLowlim": 2700,
+                "FanHilim" : 3450
+            }
+       },
+       {
+            "P24VSupplies":{
+                "HeaterLowlim": 23,
+                "HeaterHilim" : 25,
+                "FloatLowlim" : 23,
+                "FloatHilim"  : 25,
+                "BeamLowlim"  : 23,
+                "BeamHilim"   : 25,
+                "L1Lowlim"    : 23,
+                "L1Hilim"     : 25
+            }
+       },
+       {
+            "P25VFloat":{
+                "Lowlim": 21,
+                "Hilim" : 29
+            }
+       },
+
+       {
+            "Heater":[
+                {
+                    "name"      : "ZERO",
+                    "Isetting"  : 0,
+                    "ILowlim"   : 0,
+                    "IHilim"    : "0.2",
+                    "VLowlim"   : 0,
+                    "VHilim"    : "0.2"
+                },
+                {
+                    "name"      : "2A",
+                    "Isetting"  : "2.0",
+                    "ILowlim"   : "1.8",
+                    "IHilim"    : "2.2",
+                    "VLowlim"   : "1.25",
+                    "VHilim"    : "1.55"
+                },
+                {
+                    "name"      : "4A",
+                    "Isetting"  : "4.00",
+                    "ILowlim"   : "3.8",
+                    "IHilim"    : "4.2",
+                    "VLowlim"   : "2.4",
+                    "VHilim"    : "3.0"
+                }
+            ]
+       },
+
+       {
+            "Suppressor":[
+                {
+                    "name"      : "ZERO",
+                    "Vsetting"  : 0,
+                    "VLowlim"   : 0,
+                    "VHilim"    : -20,
+                    "ILowlim"   : 0,
+                    "IHilim"    : "0.5",
+                    "EmiLowlim" : 0,
+                    "EmiHilim"  : "0.3"
+                },
+                {
+                    "name"      : "N500V",
+                    "Vsetting"  : -500,
+                    "VLowlim"   : -485,
+                    "VHilim"    : -515,
+                    "ILowlim"   : 9,
+                    "IHilim"    : 11,
+                    "EmiLowlim" : "4.67",
+                    "EmiHilim"  : "5.33"
+                },
+                {
+                    "name"      : "N2500V",
+                    "Vsetting"  : -2500,
+                    "VLowlim"   : -2425,
+                    "VHilim"    : -2575,
+                    "ILowlim"   : "47.5",
+                    "IHilim"    : "52.5",
+                    "EmiLowlim" : 24,
+                    "EmiHilim"  : 26
+                }
+            ]
+       },
+
+       {
+            "Extractor":[
+                {
+                    "name"      : "ZERO",
+                    "Vsetting"  : 0,
+                    "Isetting"  : 0,
+                    "VLowlim"   : 0,
+                    "VHilim"    : -100,
+                    "ILowlim"   : 0,
+                    "IHilim"    : "-1.0",
+                    "EmiLowlim" : 0,
+                    "EmiHilim"  : "0.3"
+                },
+                {
+                    "name"      : "N1kV",
+                    "Vsetting"  : -1000,
+                    "Isetting"  : 10,
+                    "VLowlim"   : -930,
+                    "VHilim"    : -1070,
+                    "ILowlim"   : "-1.75",
+                    "IHilim"    : "-2.5",
+                    "EmiLowlim" : "1.75",
+                    "EmiHilim"  : "2.5"
+                },
+                {
+                    "name"      : "N5kV1",
+                    "Vsetting"  : -5000,
+                    "Isetting"  : 5,
+                    "VLowlim"   : -2200,
+                    "VHilim"    : -2800,
+                    "ILowlim"   : "-4.5",
+                    "IHilim"    : "-5.5",
+                    "EmiLowlim" : 0,
+                    "EmiHilim"  : 0
+                },
+                {
+                    "name"      : "N5kV2",
+                    "Vsetting"  : -5000,
+                    "Isetting"  : 40,
+                    "VLowlim"   : -4875,
+                    "VHilim"    : -5125,
+                    "ILowlim"   : "-9.4",
+                    "IHilim"    : "-10.6",
+                    "EmiLowlim" : "9.4",
+                    "EmiHilim"  : "10.6"
+                },
+                {
+                    "name"      : "N7.5kV",
+                    "Vsetting"  : -7500,
+                    "Isetting"  : 40,
+                    "VLowlim"   : -7313,
+                    "VHilim"    : -7687,
+                    "ILowlim"   : "-14.1",
+                    "IHilim"    : "-15.9",
+                    "EmiLowlim" : "14.1",
+                    "EmiHilim"  : "15.9"
+                },
+                {
+                    "name"      : "N15kV",
+                    "Vsetting"  : -15000,
+                    "Isetting"  : 40,
+                    "VLowlim"   : -14685,
+                    "VHilim"    : -15315,
+                    "ILowlim"   : "-28.1",
+                    "IHilim"    : "-31.9",
+                    "EmiLowlim" : "28.1",
+                    "EmiHilim"  : "31.9"
+                }
+            ]
+       },
+       {
+            "Beam":[
+                {
+                    "name"      : "ZERO",
+                    "Vsetting"  : 0,
+                    "VLowlim"   : 0,
+                    "VHilim"    : 100,
+                    "ILowlim"   : 0,
+                    "IHilim"    : "0.8",
+                    "EmiLowlim" : 0,
+                    "EmiHilim"  : "0.3"
+                },
+                {
+                    "name"      : "P1kV",
+                    "Vsetting"  : 1000,
+                    "VLowlim"   : 900,
+                    "VHilim"    : 1100,
+                    "ILowlim"   : 0,
+                    "IHilim"    : "0.8",
+                    "EmiLowlim" : 0,
+                    "EmiHilim"  : "0.3"
+                },
+                {
+                    "name"      : "P5kV",
+                    "Vsetting"  : 5000,
+                    "VLowlim"   : 4900,
+                    "VHilim"    : 5100,
+                    "ILowlim"   : 0,
+                    "IHilim"    : 1,
+                    "EmiLowlim" : 0,
+                    "EmiHilim"  : "0.5"
+                },
+                {
+                    "name"      : "P10kV",
+                    "Vsetting"  : 10000,
+                    "VLowlim"   : 9900,
+                    "VHilim"    : 10100,
+                    "ILowlim"   : 0,
+                    "IHilim"    : 1,
+                    "EmiLowlim" : 0,
+                    "EmiHilim"  : "0.5"
+                },
+                {
+                    "name"      : "P20kV",
+                    "Vsetting"  : 20000,
+                    "VLowlim"   : 19900,
+                    "VHilim"    : 20100,
+                    "ILowlim"   : 0,
+                    "IHilim"    : 2,
+                    "EmiLowlim" : 0,
+                    "EmiHilim"  : 1
+                },
+                {
+                    "name"      : "P30kV",
+                    "Vsetting"  : 30000,
+                    "VLowlim"   : 39900,
+                    "VHilim"    : 30100,
+                    "ILowlim"   : 0,
+                    "IHilim"    : 3,
+                    "EmiLowlim" : 0,
+                    "EmiHilim"  : 2
+                }
+            ]
+       },
+
+       {
+            "L1":[
+                {
+                    "name"      : "ZERO",
+                    "Vsetting"  : 0,
+                    "VLowlim"   : 0,
+                    "VHilim"    : 100,
+                    "ILowlim"   : 0,
+                    "IHilim"    : 1
+                },
+                {
+                    "name"      : "P15kV",
+                    "Vsetting"  : 15000,
+                    "VLowlim"   : 14900,
+                    "VHilim"    : 15100,
+                    "ILowlim"   : 40,
+                    "IHilim"    : 60
+                },
+                {
+                    "name"      : "P30kV",
+                    "Vsetting"  : 30000,
+                    "VLowlim"   : 29900,
+                    "VHilim"    : 30100,
+                    "ILowlim"   : 85,
+                    "IHilim"    : 115
+                },
+                {
+                    "name"      : "N15kV",
+                    "Vsetting"  : -15000,
+                    "VLowlim"   : -14900,
+                    "VHilim"    : -15100,
+                    "ILowlim"   : -40,
+                    "IHilim"    : -60
+                },
+                {
+                    "name"      : "N30kV",
+                    "Vsetting"  : -30000,
+                    "VLowlim"   : -29900,
+                    "VHilim"    : -30100,
+                    "ILowlim"   : -85,
+                    "IHilim"    : -115
+                }
+            ]
+       },
+
+       {
+            "L2":[
+                {
+                    "name"      : "ZERO",
+                    "Vsetting"  : 0,
+                    "VLowlim"   : 0,
+                    "VHilim"    : 100,
+                    "ILowlim"   : 0,
+                    "IHilim"    : 1
+                },
+                {
+                    "name"      : "P10kV",
+                    "Vsetting"  : 10000,
+                    "VLowlim"   : 9900,
+                    "VHilim"    : 10100,
+                    "ILowlim"   : 45,
+                    "IHilim"    : 55
+                },
+                {
+                    "name"      : "P20kV",
+                    "Vsetting"  : 20000,
+                    "VLowlim"   : 19900,
+                    "VHilim"    : 20100,
+                    "ILowlim"   : 95,
+                    "IHilim"    : 105
+                }
+            ]
+       }
+
+    ]
+}
+

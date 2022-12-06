@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HVProbe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HV10kV>10008.6</HV10kV>
+  <HV20kV>20011.3</HV20kV>
+  <HV30kV>30012.2</HV30kV>
+  <HV40kV>40010.0</HV40kV>
+</HVProbe>

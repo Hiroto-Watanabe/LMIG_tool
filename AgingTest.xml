@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<listAging>
+    <Aging name="PrePotAging">
+        <BeamV>5000</BeamV>
+        <SuppV>-2500</SuppV>
+        <ExtrV>-5000</ExtrV>
+        <HeatA>3.8</HeatA>
+        <L1V>0</L1V>
+        <L2V>0</L2V>
+        <TimeHour>24</TimeHour>
+    </Aging>
+    <Aging name="FinalAging">
+        <BeamV>35000</BeamV>
+        <SuppV>-2500</SuppV>
+        <ExtrV>-8000</ExtrV>
+        <HeatA>3.8</HeatA>
+        <L1V>0</L1V>
+        <L2V>0</L2V>
+        <TimeHour>48</TimeHour>
+    </Aging>
+
+</listAging>
+
+

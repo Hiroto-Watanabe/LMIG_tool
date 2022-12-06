@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PrePotting>
+    <StatusTests>
+        <FanLowlim>2700</FanLowlim>
+        <FanHilim>3450</FanHilim>
+    </StatusTests>
+    <P24VSupplies>
+        <HeaterLowlim>23</HeaterLowlim>
+        <HeaterHilim>25</HeaterHilim>
+        <FloatLowlim>23</FloatLowlim>
+        <FloatHilim>25</FloatHilim>
+        <BeamLowlim>23</BeamLowlim>
+        <BeamHilim>25</BeamHilim>
+        <L1Lowlim>23</L1Lowlim>
+        <L1Hilim>25</L1Hilim>
+        <L2Lowlim>23</L2Lowlim>
+        <L2Hilim>25</L2Hilim>
+    </P24VSupplies>
+    <P25VFloat>
+        <Lowlim>21</Lowlim>
+        <Hilim>29</Hilim>
+    </P25VFloat>
+    <P15VFloat>
+        <Lowlim>14.8</Lowlim>
+        <Hilim>15.8</Hilim>
+    </P15VFloat>
+    <Heater name="0A">
+        <Isetting>0</Isetting>
+        <ILowlim>0</ILowlim>
+        <IHilim>0.2</IHilim>
+        <VLowlim>0</VLowlim>
+        <VHilim>0.2</VHilim>
+        <Wait>1.0</Wait>
+        <CheckCount>1</CheckCount>
+    </Heater>
+    <Heater name="2A">
+        <Isetting>2.00</Isetting>
+        <ILowlim>1.8</ILowlim>
+        <IHilim>2.2</IHilim>
+        <VLowlim>1.25</VLowlim>
+        <VHilim>1.55</VHilim>
+        <Wait>10.0</Wait>
+        <CheckCount>5</CheckCount>
+    </Heater>
+    <Heater name="4A">
+        <Isetting>4.00</Isetting>
+        <ILowlim>3.8</ILowlim>
+        <IHilim>4.2</IHilim>
+        <VLowlim>2.4</VLowlim>
+        <VHilim>3.0</VHilim>
+        <Wait>10.0</Wait>
+        <CheckCount>5</CheckCount>
+    </Heater>
+
+    <Suppressor name="0V">
+        <Vsetting>0</Vsetting>
+        <VLowlim>0</VLowlim>
+        <VHilim>-20</VHilim>
+        <ILowlim>0</ILowlim>
+        <IHilim>0.5</IHilim>
+        <EmiLowlim>0</EmiLowlim>
+        <EmiHilim>0.3</EmiHilim>
+        <Wait>1.0</Wait>
+        <CheckCount>1</CheckCount>
+    </Suppressor>
+    <Suppressor name="-500V">
+        <Vsetting>-500</Vsetting>
+        <VLowlim>-485</VLowlim>
+        <VHilim>-515</VHilim>
+        <ILowlim>9</ILowlim>
+        <IHilim>11</IHilim>
+        <EmiLowlim>4.67</EmiLowlim>
+        <EmiHilim>5.33</EmiHilim>
+        <Wait>10.0</Wait>
+        <CheckCount>5</CheckCount>
+    </Suppressor>
+    <Suppressor name="-2500V">
+        <Vsetting>-2500</Vsetting>
+        <VLowlim>-2425</VLowlim>
+        <VHilim>-2575</VHilim>
+        <ILowlim>47.5</ILowlim>
+        <IHilim>52.5</IHilim>
+        <EmiLowlim>24</EmiLowlim>
+        <EmiHilim>26</EmiHilim>
+        <Wait>10.0</Wait>
+        <CheckCount>5</CheckCount>
+    </Suppressor>
+
+    <Extractor name="0V">
+        <Vsetting>0</Vsetting>
+        <Isetting>0</Isetting>
+        <VLowlim>0</VLowlim>
+        <VHilim>-100</VHilim>
+        <ILowlim>0</ILowlim>
+        <IHilim>-1</IHilim>
+        <EmiLowlim>0</EmiLowlim>
+        <EmiHilim>0.3</EmiHilim>
+        <Wait>1.0</Wait>
+        <CheckCount>1</CheckCount>
+    </Extractor>
+    <Extractor name="-1kV">
+        <Vsetting>-1000</Vsetting>
+        <Isetting>10</Isetting>
+        <VLowlim>-930</VLowlim>
+        <VHilim>-1070</VHilim>
+        <ILowlim>-1.75</ILowlim>
+        <IHilim>-2.5</IHilim>
+        <EmiLowlim>1.75</EmiLowlim>
+        <EmiHilim>2.5</EmiHilim>
+        <Wait>10.0</Wait>
+      <CheckCount>5</CheckCount>
+    </Extractor>
+    <Extractor name="-5kV current-limit!!!">
+        <Vsetting>-5000</Vsetting>
+        <Isetting>5</Isetting>
+        <VLowlim>-2200</VLowlim>
+        <VHilim>-2800</VHilim>
+        <ILowlim>-4.5</ILowlim>
+        <IHilim>-5.5</IHilim>
+        <EmiLowlim>0</EmiLowlim>
+        <EmiHilim>0</EmiHilim>
+        <Wait>10.0</Wait>
+        <CheckCount>5</CheckCount>
+    </Extractor>
+    <Extractor name="-5kV">
+        <Vsetting>-5000</Vsetting>
+        <Isetting>40</Isetting>
+        <VLowlim>-4875</VLowlim>
+        <VHilim>-5125</VHilim>
+        <ILowlim>-9.4</ILowlim>
+        <IHilim>-10.6</IHilim>
+        <EmiLowlim>9.4</EmiLowlim>
+        <EmiHilim>10.6</EmiHilim>
+        <Wait>10.0</Wait>
+        <CheckCount>5</CheckCount>
+    </Extractor>
+    <Extractor name="-7.5kV">
+        <Vsetting>-7500</Vsetting>
+        <Isetting>40</Isetting>
+        <VLowlim>-7313</VLowlim>
+        <VHilim>-7687</VHilim>
+        <ILowlim>-14.1</ILowlim>
+        <IHilim>-15.9</IHilim>
+        <EmiLowlim>14.1</EmiLowlim>
+        <EmiHilim>15.9</EmiHilim>
+        <Wait>10.0</Wait>
+        <CheckCount>5</CheckCount>
+    </Extractor>
+    <Extractor name="-15kV">
+        <Vsetting>-15000</Vsetting>
+        <Isetting>40</Isetting>
+        <VLowlim>-14685</VLowlim>
+        <VHilim>-15315</VHilim>
+        <ILowlim>-28.1</ILowlim>
+        <IHilim>-31.9</IHilim>
+        <EmiLowlim>28.1</EmiLowlim>
+        <EmiHilim>31.9</EmiHilim>
+        <Wait>10.0</Wait>
+        <CheckCount>5</CheckCount>
+    </Extractor>
+
+  <Beam name="0V">
+    <Vsetting>0</Vsetting>
+    <VLowlim>0</VLowlim>
+    <VHilim>100</VHilim>
+    <ILowlim>0</ILowlim>
+    <IHilim>0.8</IHilim>
+    <EmiLowlim>0</EmiLowlim>
+    <EmiHilim>0.3</EmiHilim>
+    <Wait>1.0</Wait>
+  </Beam>
+  <Beam name="+1kV">
+    <Vsetting>1000</Vsetting>
+    <VLowlim>900</VLowlim>
+    <VHilim>1100</VHilim>
+    <ILowlim>0</ILowlim>
+    <IHilim>0.8</IHilim>
+    <EmiLowlim>0</EmiLowlim>
+    <EmiHilim>0.3</EmiHilim>
+    <Wait>10.0</Wait>
+  </Beam>
+  <Beam name="+5kV">
+    <Vsetting>5000</Vsetting>
+    <VLowlim>4900</VLowlim>
+    <VHilim>5100</VHilim>
+    <ILowlim>0</ILowlim>
+    <IHilim>1.0</IHilim>
+    <EmiLowlim>0</EmiLowlim>
+    <EmiHilim>0.5</EmiHilim>
+    <Wait>10.0</Wait>
+  </Beam>
+  <Beam name="+10kV">
+    <Vsetting>10000</Vsetting>
+    <VLowlim>9900</VLowlim>
+    <VHilim>10100</VHilim>
+    <ILowlim>0</ILowlim>
+    <IHilim>1.0</IHilim>
+    <EmiLowlim>0</EmiLowlim>
+    <EmiHilim>0.5</EmiHilim>
+    <Wait>10.0</Wait>
+  </Beam>
+  <Beam name="+20kV">
+    <Vsetting>20000</Vsetting>
+    <VLowlim>19900</VLowlim>
+    <VHilim>20100</VHilim>
+    <ILowlim>0</ILowlim>
+    <IHilim>2.0</IHilim>
+    <EmiLowlim>0</EmiLowlim>
+    <EmiHilim>1.0</EmiHilim>
+    <Wait>10.0</Wait>
+  </Beam>
+  <Beam name="+30kV">
+    <Vsetting>30000</Vsetting>
+    <VLowlim>29900</VLowlim>
+    <VHilim>30100</VHilim>
+    <ILowlim>0</ILowlim>
+    <IHilim>3.0</IHilim>
+    <EmiLowlim>0</EmiLowlim>
+    <EmiHilim>2.0</EmiHilim>
+    <Wait>10.0</Wait>
+  </Beam>
+
+  <L1 name="0V">
+    <Vsetting>0</Vsetting>
+    <VLowlim>0</VLowlim>
+    <VHilim>100</VHilim>
+    <ILowlim>0</ILowlim>
+    <IHilim>1.0</IHilim>
+    <Wait>1.0</Wait>
+  </L1>
+  <L1 name="+15kV">
+    <Vsetting>15000</Vsetting>
+    <VLowlim>14900</VLowlim>
+    <VHilim>15100</VHilim>
+    <ILowlim>40</ILowlim>
+    <IHilim>60</IHilim>
+    <Wait>10.0</Wait>
+  </L1>
+  <L1 name="+30kV">
+    <Vsetting>30000</Vsetting>
+    <VLowlim>29900</VLowlim>
+    <VHilim>30100</VHilim>
+    <ILowlim>85</ILowlim>
+    <IHilim>115</IHilim>
+    <Wait>10.0</Wait>
+  </L1>
+  <L1 name="0KV before changing polarity.">
+    <Vsetting>0</Vsetting>
+    <Wait>15.0</Wait>
+  </L1>
+  <L1 name="-15kV">
+    <Vsetting>-15000</Vsetting>
+    <VHilim>-14900</VHilim>
+    <VLowlim>-15100</VLowlim>
+    <IHilim>-40</IHilim>
+    <ILowlim>-60</ILowlim>
+    <Wait>10.0</Wait>
+  
+</L1>
+  <L1 name="-30kV">
+    <Vsetting>-30000</Vsetting>
+    <VHilim>-29900</VHilim>
+    <VLowlim>-30100</VLowlim>
+    <IHilim>-85</IHilim>
+    <ILowlim>-115</ILowlim>
+    <Wait>10.0</Wait>
+  </L1>
+
+  <L2 name="0V">
+    <Vsetting>0</Vsetting>
+    <VLowlim>0</VLowlim>
+    <VHilim>100</VHilim>
+    <ILowlim>0</ILowlim>
+    <IHilim>1.0</IHilim>
+    <Wait>1.0</Wait>
+  </L2>
+  <L2 name="+10kV">
+    <Vsetting>10000</Vsetting>
+    <VLowlim>9900</VLowlim>
+    <VHilim>10100</VHilim>
+    <ILowlim>45</ILowlim>
+    <IHilim>55</IHilim>
+    <Wait>10.0</Wait>
+  </L2>
+  <L2 name="+20kV">
+    <Vsetting>20000</Vsetting>
+    <VLowlim>19900</VLowlim>
+    <VHilim>20100</VHilim>
+    <ILowlim>95</ILowlim>
+    <IHilim>105</IHilim>
+    <Wait>10.0</Wait>
+  </L2>
+
+</PrePotting>
+
+

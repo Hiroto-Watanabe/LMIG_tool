@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LMIG_20_750", "LMIG_20_750.vbproj", "{2E1E9E09-CE65-4F93-B6B2-9B1CF287731D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E1E9E09-CE65-4F93-B6B2-9B1CF287731D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1E9E09-CE65-4F93-B6B2-9B1CF287731D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1E9E09-CE65-4F93-B6B2-9B1CF287731D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1E9E09-CE65-4F93-B6B2-9B1CF287731D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F88F98FD-F31E-4FF1-8776-847D9013F0CB}
+	EndGlobalSection
+EndGlobal
